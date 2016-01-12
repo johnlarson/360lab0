@@ -71,25 +71,43 @@ pre {
 	text-align: left;
 }
 
+.dream-team-head {
+	margin-top: 3%;
+}
+
 table {
 	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 10%;
+}
+
+tr {
+	border-bottom: 1px solid black;
+}
+
+th {
+	text-align: center;
+	border-bottom: 1px solid black;
 }
 
 .inputs {
 	margin-left: auto;
+	margin-top: 10%;
 }
 
 .input-pair {
 	text-align: left;
-}
-
-.input-pair {
 	display: block;
 	padding: 20px 0;
 }
 
 .input-pair label {
 	vertical-align: top;
+}
+
+.input-pair .input-field {
+	margin-left: 10px;
+	color: black;
 }
 
 input[type=submit] {
