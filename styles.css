@@ -12,9 +12,31 @@ ul {
 	text-align: left;
 }
 
-.input-pair {
-	display: block;
-	padding: 20px 0;
+.background {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
+}
+
+.container {
+	width: 80%;
+	height: 500px;
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
+	height: 100%;
+}
+
+.container img {
+	margin: auto;
+	width: 100%;
+}
+
+.white {
+	background-color: white;
+	color: black;
 }
 
 .top-link {
@@ -45,14 +67,6 @@ ul {
 	background-color: #556d7c;
 }
 
-.background {
-	background-color: black;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	color: white;
-}
-
 pre {
 	text-align: left;
 }
@@ -61,27 +75,17 @@ table {
 	width: 100%;
 }
 
-.container {
-	width: 80%;
-	height: 500px;
-	text-align: center;
-	overflow: hidden;
-	margin: auto;
-	height: 100%;
+.inputs {
+	margin-left: calc(50% - 200px);
 }
 
-.white {
-	background-color: white;
-	color: black;
+.input-pair {
+	text-align: left;
 }
 
-#resume {
-	overflow: auto;
-}
-
-.container img {
-	margin: auto;
-	width: 100%;
+.input-pair {
+	display: block;
+	padding: 20px 0;
 }
 
 input[type=submit] {
@@ -97,12 +101,4 @@ input[type=submit] {
 input[type=submit]:hover {
 	background-color: #556d7c;
 	border-radius: 0;
-}
-
-.inputs {
-	margin-left: calc(50% - 200px);
-}
-
-.input-pair {
-	text-align: left;
 }
